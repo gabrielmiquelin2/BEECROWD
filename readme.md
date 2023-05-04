@@ -7,5 +7,3 @@
 
 <h4>Registrando tudo aqui no GitHub e mostrando minha evolução</h4>
 
-<h2>Linguagem Utilizada</h2>
-<p>JAVASCRIPT</p>
