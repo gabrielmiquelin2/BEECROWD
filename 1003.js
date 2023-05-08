@@ -7,6 +7,5 @@
 const A = parseInt(process.argv[2]);
 const B = parseInt(process.argv[3]);
 const SOMA = A + B;
-console.log(`SOMA = ${SOMA}`);
-
+console.log(`SOMA = ${SOMA}`); 
 //Para executar o programa dígite no terminal "node nomedoarquivo.js 10 5" Ele então vai somar 10 + 5 e mostrar o resultado no terminal

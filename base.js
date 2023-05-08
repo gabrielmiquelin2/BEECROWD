@@ -1,10 +1,25 @@
 
-// Esse trecho de código em JavaScript lê o conteúdo do arquivo "stdin" utilizando a biblioteca nativa do Node.js chamada "fs" e armazena o conteúdo na variável "input".
-// Mais especificamente, a função "require" é usada para carregar o módulo "fs" (File System) do Node.js, que fornece uma interface para interagir com o sistema de arquivos do computador. A função "readFileSync" é usada para ler o conteúdo do arquivo especificado como primeiro parâmetro (neste caso, "stdin"), e o segundo parâmetro "utf8" é usado para especificar que o conteúdo do arquivo deve ser interpretado como texto.
-// Portanto, se houver um arquivo chamado "stdin" no diretório atual, seu conteúdo será lido e armazenado na variável "input". Se não houver um arquivo com esse nome, um erro será gerado.
+// Esse código em JavaScript lê um arquivo de entrada chamado "stdin" usando o módulo 'fs' (file system) e armazena o conteúdo do arquivo em uma variável chamada "input".
+// Em seguida, ele divide o conteúdo da variável "input" em um array de substrings, onde cada substring representa uma linha do arquivo de entrada. O separador usado para dividir as linhas é o caractere '\n'.
+// Dessa forma, o código permite que o programa leia o conteúdo de um arquivo de entrada e o divida em linhas para posterior processamento. Por exemplo, se o arquivo de entrada contiver uma lista de valores em cada linha, o programa poderá ler o arquivo de entrada e acessar cada valor separadamente a partir do array de substrings.
+
 let input = require("fs").readFileSync("stdin","utf8");
 var lines = input.split('\n');
 
+let a = 10;
+let b = 20;
+
+// "fs" é uma biblioteca que permite interagir com o sistema de arquivos do computador usando JavaScript no Node.js
+// readFileSync = é usada para ler o arquivo e retornar seu conteúdo. 
+
+//split() = pega uma string e divide ela em arrays.
+//EXEMPLO:
+// var str = "Hello,World";
+// var arr = str.split(',');
+// console.log(arr);
+// VAI RETORNAR ["Hello", "World"]
+
+// \n',representa uma quebra de linha, isso indica que uma nova linha deve ser iniciada a partir desse ponto
 
 
-
+//shift remove o primeiro elemento de um array e depois o retorna

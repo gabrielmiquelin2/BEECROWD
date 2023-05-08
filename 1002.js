@@ -34,4 +34,3 @@ let raio = parseInt(input);
 let area = pi * raio ** 2 //raio ao quadrado
 
 console.log(area.toFixed(4))
-
