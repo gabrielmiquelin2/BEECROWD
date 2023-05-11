@@ -4,7 +4,7 @@
 // Dessa forma, o código permite que o programa leia o conteúdo de um arquivo de entrada e o divida em linhas para posterior processamento. Por exemplo, se o arquivo de entrada contiver uma lista de valores em cada linha, o programa poderá ler o arquivo de entrada e acessar cada valor separadamente a partir do array de substrings.
 
 let input = require("fs").readFileSync("stdin","utf8");
-var lines = input.split('\n');
+let lines = input.split('\n');
 
 let a = 10;
 let b = 20;
