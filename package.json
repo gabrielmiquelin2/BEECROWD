@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "beecrowd",
+  "description": "<h2>Desafios Beecrowd</h2>\r <hr>\r <h3>Linguagem Utilizada:</3>\r JavaScript\r <br>\r <hr>\r <h3>Tentando Resolver os 336 desafio do <a src=\"https://www.beecrowd.com.br/judge/pt/problems/index/1\">Beecrowd</a> iniciante</h3>",
+  "version": "1.0.0",
+  "main": "1001.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmiquelin2/BEECROWD.git"
+  },
+  "author": "Gabriel Miquelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmiquelin2/BEECROWD/issues"
+  },
+  "homepage": "https://github.com/gabrielmiquelin2/BEECROWD#readme"
+}
