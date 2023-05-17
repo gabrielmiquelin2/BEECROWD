@@ -1,0 +1,6 @@
+// DIFERENÇA de "parseFloat" e "parseInt":
+// parseFloat converte strings em números de ponto flutuante (com decimais). 
+// parseInt converte strings em números inteiros.
+
+//shift() remove o primeiro elemento de um array e depois o retorna
+//split() = pega uma string e divide ela em arrays.
